@@ -26,6 +26,7 @@ _repipack_table:
 	dd 000200005h, 0501ABBCFh, 049D21831h, 0C6AFB354h	; 0x4AD5AA70 "Sugar Coat Freaks Trial"
 	dd 000200005h, 0CC545B24h, 08305AFBEh, 0AE7106FBh	; 0x4B4AF099 "Sugar Coat Freaks"
 	dd 000200005h, 0EF157364h, 07C0DB4A3h, 05A8FBCC2h	; 0x4F5A35C5 "Eiyuu*Senki Trial"
+	dd 000200005h, 057CC4EC0h, 0DB3637A8h, 0FB4A25F1h	; 0x5321003D "Eiyuu*Senki GOLD"
 	dd -1
 
 _repipack_md5 PROC	; src, cnt, dest

@@ -1,0 +1,454 @@
+ 
+find_common formats: 
+ 
+(jpg, png, bmp, gif, pcx) 
+(ogg, mp3, wav, mid) 
+(zip, rar, gz, bz2, cab, compress)
+(avi, bik)
+(chm, djvu)
+ 
+find_anime formats:
+ 
+(ggd, gga) "Private Nurse", "Come See Me Tonight", "Come See Me Tonight 2" (GGD), "Kango Shicyauzo 2" (TRGRP) 
+(wip) "Snow Drop", "Yume Miru Kusuri", "Little My Maid" (chip.arc) 
+(marc) "Gunners Broom" (*.PB) 
+(lz) "Face" (DIB\*.GPP), "Yan Yan 2" (HCG\*.GRP) 
+(act98) "Loop" (PIC?\*.PIC) 
+(moe) "Majo" (EVE.PCK), "Travel" (*.MOE)
+(gcmp) "Angie Decadence Land" (*.NSC)
+(stpl) "Star Platinum" (SP.DAT)
+(24ff) "Miriwaku" (MCWIN.DAT)
+(edo) "Kusuri" (EDOFILE.PAK), "Mahjong Fantasia 3" (*.EDO)
+(zfc) "Love Escalator" (LOVE.EAR)
+(apx) "Immoral Study" (*.APG)
+(ewa) "Fatal Relations" (RELATION.EWA)
+(gph) "Metal & Lace", "Knights of Xentar" (*.VOL)
+(kg) "Dvine Luv" (KG.DSK)
+(dsc) "Da Capo", "Soul Link", "Suika", "Shuffle!" (data02000.arc), "Nursery Rhyme" (nrarc01.arc)
+(cps) "Ever 17" (bg.dat, chara.dat)
+(gale) "Heart no Kuni no Alice" (*.gal)
+(prs) "Wanko to Kurasou" (mg_gra.mbl)
+(pdt35) "Nurse School" (*.PDT)
+(pdt34) "Sorcer Kingdom" (*.PDT)
+(ciel) "After Sweet Kiss" (pict.arc), "Ciel Limited Collector's Box" (*.arc), "PurePure" (cg.pak)
+(silv) "Crescent" (*.E), "Dragon Knight 4" (*.GP4), "Jack" (DISK_?), "Isaku" (ISAKU_?)
+(angie) "Angie Decadence Land" (CG\FULL_CG.NSC)
+(fall) "Fallen Song of Innocence" (graph.dat)
+
+arc_conv formats:
+
+(neko_td2) "Tiny Dungeon 2", "Tiny Dungeon 3" (*.dat)
+(neko_really) "Really? Really!" (data\*.dat)
+(n3pk) "Nitro Wars" (*.pak)
+(kid_lnk) (cps > tga) "Ai Yori Aoshi", "Ever 17" (*.dat)
+(nitp) "Nitro Amusement Disk" (*.npp)
+(arc3) "Otoboku" (*.bin)
+(hypack) "Solfege", "Gadget Trial", "Symphonic Rain" (*.pak)
+(adpack32) (ed8,sal,edt > tga) "Hinata Bokko" (*.pak)
+(datapack5) (? > tga) "Messiah", "Quilt", "Para-sol", "Kimi to Boku to Eden no Ringo" (*.pak)
+(lpk1) (elg > tga) "SHUFFLE Essence", "Nekonade Distortion" (*.lpk)
+(sm2mpx10) (ggp > png; gg0,gg1,gg2,gg3 > tga; ggd > tga) "Hitomi -My Stepsister-", "Heart de Roommate", "Pretty Soldier Wars A.D.2048", "Private Nurse", "Come See Me Tonight", "Come See Me Tonight 2", "Snow Sakura", "Ikazuchi no Senshi Raidi", "Reijou Club" (GGD, WMSC), "Kango Shicyauzo 2" (TRGRP)
+(vf102) "Heart no Kuni no Alice", "Mugen Yakou" (game.dat, save.dat)
+(liar) (lm1,lim,wcg > tga) "Oiran Rouge", "Albatross Koukairoku", "Shikkoku no Sharnoth", "Sekien no Inganock", "Born Freaks!", "Angel Bullet", "Sapphism no Gensou" (*.xfl), "Kusarihime - Euthanasia", "Pink Panzer", "CannonBall" (grp?\*.lim), "Cho~Ita" (IMAGE\*.lm1)
+(xp3) (tlg > tga) "Sweet Robin Girl", "G-senjou no Maou", "Komusume", "Heliotrope -Sore wa Shi ni Itaru Kami no Ai-", "Sugar+Spice 2", "Hanafubuki", "Sorafune", "Okiba ga Nai!", "Seirei Tenshou", "Gothic Delusion", "Fate/stay night", "Fate/hollow ataraxia", "Smile", "Smile Cubic!", "Swan Song", "Sharin no Kuni, Himawari no Shoujo", "Candy Doll", "Acchi Muite Koi", "Hagukumi Sacrifice 1", "Tokyo Alice" (*.xp3)
+(npa1) "Kikokugai 2011", "Chaos;Head", "Nekoda -Nyanda-", "Lamento -Beyond the Void-", "Lamento Treasure", "Zoku Satsuriku no Django", "Soukou Akki Muramasa: Janen Hen", "Sweet Pool" (*.npa)
+(pbg3) "Touhou 6 - The Embodiment of Scarlet Devil" (*.dat)
+(pbg4) "Touhou 7 - Perfect Cherry Blossom" (th07.dat)
+(pbgz) "Touhou 8 - Imperishable Night" (th08.dat), "Touhou 9 - Phantasmagoria of Flower View" (th09.dat)
+(rpa3) "Spirited Heart" (*.rpa)
+(fa2) (c25 > tga; pad > wav) "Akogare" (*.fa2)
+(warc) (s25 > tga) "Mahou Shoujo no Taisetsu na Koto.", "Helter Skelter", "Ren'ai Saimin", "Onegan!", "Sensei! Shite Ageru", "Sabae no Ou", "Nagagutsu wo Haita Deco", "You Gaku", "Pure Love!", "Oreimo Plus", "Hana to Otome ni Shukufuku o Royal Bouquet", "Onedari Onapet", "Aneiro" (*.war)
+(repipack) "Shirotsume Souwa ~Episode of the Clovers~", "Quartett!", "LittleWitch Romanesque", "LittleWitch FanDisk", "Rondo Leaflet", "Period", "Period Sweet Drops", "Seiken no Fairies", "Sugar Coat Freaks", "
+Eiyuu*Senki" (*.dat)
+(ragnarok) "RagnarokOnline" (*.grf)
+(gcex) (argb > tga) "Princess Maker 4" (data, gd, script)
+(mma) (? > tga) "Kyou Kara Maou!" (*.mma)
+(arc2) "Amy's Fantasys" (AMY.A2), "Kotobuki" (KOTOBUKI.ADT), "Gloria" (GLORIA.DAT)
+(arcx) "Miko Mai" (*.arc)
+(arcg, wsm4) (?,mbf > bmp) "Kuro to Kin no Hirakanai Kagi" (*.arc, *.bmx, *.vpk, *.wsm)
+(yanepk) (yga > tga) "ChugokuH" (*.dat)
+(ypf) "Four-Leaf", "Neko Koi!", "Suzukaze no Melt", "Mamono Musume-tachi to no Rakuen ~Slime & Scylla~", "Zettai Imouto Genri Shugi!!", "Euphoria" (*.ypf)
+(egopak) "Aozora Majika", "Men at Work 4" (game0?.dat)
+(bgi) (? > tga) "Aiyoku no Eustia", "Platinum Wind", "Subarashiki Hibi", "Da Capo", "Soul Link", "Suika", "Shuffle!", "Kira Kira Curtain Call" (data0?000.arc, sys???.arc), "Nursery Rhyme" (nrarc0?.arc, sys???.arc)
+(pd_cc, pd_sml) "Cross Channel", "Carnival" (*.pd)
+(klein) "PurePure" (cg.pak)
+(moero) "Moero Downhill Night Type R" (bg.pkd)
+(noesis) "Marble Bloomers", "Furifure", "Kara no Shoujo" (*.dat)
+(pac4) "Bitter Smile", "Baldr Sky: Dive 2", "Baldr Sky DiveX - Dream World" (*.pac)
+(ipac) (ies > tga) "Mamono Musume to no Seikatsu - Lamia no Baai" (*.pak)
+(sysadv) (pga > png) "Moshimo Ashita ga Harenaraba" (*.pak)
+(malie) (mgf > png) "Popotan Po!", "Shiokaze no Kieru Umi ni", "Dies irae Also sprach Zarathustra", "Donchan ga Kyu" (*.lib), "Zettai Meikyuu Grimm Director's Cut" (*.dat)
+(cls_dat) (? > tga) "Unlimited Mahjong Works" (*.dat)
+(gamedat) (epa > tga) "Nanatsuiro Drops", "Taiyou no Promia", "Twinkle Crusaders", "Pandora no Yume" (*.dat)
+(afs) (adx > wav) "Quartett! The Stage of Love (PS2)", "Shirotsume Souwa ~Episode of the Clovers~ (DC)" (*.acx, *.afs)
+(gpda) "Ore no Imouto ga Konnna ni Kawaii Wake ga Nai Portable (PSP)" (*.dat)
+(pcrs) "Youkai" (*.a5r)
+(mw2) "Gokko" (*.ARC)
+(mdfile) "Youjo Ranbu 2", "Avaron" (*.md)
+(md002) "Guren Tenshou -Rasetsu-", "Guren Tenshou -Shura-" (*.pak)
+(mikostg) "Amatsukami no Miko" (data.pak)
+(vafsh) (? > tga) "Peace@Pieces" (GR.059, PIC.059), "Peace@Pieces FanDisk" (GR.067, PIC.067)
+(aoibx, aoimy) "Nangoku Dominion", "Dancing Crazies", "Greensvale no Mori no Naka", "Bunny Black", "Yukioni-ya Onsen-ki" (*.box)
+(vfs) (iph,agf > tga) "Ouzoku", "Wizards Climber", "Nangoku Dominion", "Daisounan", "Dancing Crazies", "Greensvale no Mori no Naka", "Bunny Black", "Yukioni-ya Onsen-ki" (*.vfs), "Wafer" (iph\*.iph, sys\*.iph)
+(fjsys) (mgd > tga,png) "Natsuiro Sagittarius", "Sono Hanabira ni Kuchizuke o", "Amakara Twins" (BGM, DATA, MGD, MSD, SE, VOICE)
+(majiro) (rc8,rct > tga) "Katahane", "airyFairy", "Akatsuki no Goei ~Principal-tachi no Kyuujitsu~", "NekoNeko Fan Disk 3", "Primary Step", "Scarlett", "White ~blanche comme la lune~" (*.arc)
+(sgs1) "Viper-V8", "Viper-V10", "Viper-V16" (SGS.DAT)
+(tpf) "Beloved Kingdom" (*.tpf)
+(gml) (pgx > tga) "Little Monica Monogatari", "Watashi no Puni Puni" (*.g)
+(glib2) (pgx > tga) "Musume Shimai", "Pure My Imouto Milk Purun" (*.g2)
+(xarc2) "Seinarukana -The Spirit of Eternity Sword 2-" (*.arc, *.xarc), "Ten no Hikari wa Koi no Hoshi" (*.arc)
+(xarc1) "Barbaroi" (HD\*.arc)
+(gaf4) "Seinarukana -The Spirit of Eternity Sword 2-" (*.4ag), "Ten no Hikari wa Koi no Hoshi" (*.wag), "Barbaroi" (HD\*.004)
+(kotori) (? > ogg) "Ten no Hikari wa Koi no Hoshi" (bgm0000.bin)
+(gael) (tbm,t32 > tga) "Galaxy Angel Eternal Lovers" (Dat\gadat0??.pak)
+(gpk2) (gfb > tga) "Kanosora" (gfb\*, ogg\*)
+(eushully) (agf > tga) "Himegari Dungeon Meister", "Ikusa Megami VERITA" (SYS4INI.BIN), Kamidori Alchemy Meister (APPEND01.AAI)
+(tcd2) "ReNN ~Another Story of Works Doll~" (*.tcd)
+(tcd3) (spd > tga,jpg) "Temaribana", "Nanapuri", "Atori no Sora to Shinchuu no Tsuki", "Hateshinaku Aoi, Kono Sora no Shita de..." (*.tcd)
+(mpf2) "Unival! Paranormal Girls Strike!!" (arc.dat)
+(kif) (hg3 > tga) "Grisaia no Kajitsu", "Shukufuku no Campanella", "Makai Tenshi Djibril -Episode 4-" (*.int)
+(xfir) (bitd > tga; edim > mp3; xmed > txt) "Shakkin Shimai 2 Afterstory", "Haramiko", "Koi to Senkyo to Chocolate" (*.cct), "Sukisho 1 - First Limit" (*.dxr, *.cxt)
+(escude) "Figu@Carnival", "Wondering Repair!", "Verdia Gensoukyoku", "Figu@Prister", "Akatoki! -Yume Koso Masare Koi no Mahou-" (*.bin)
+(escude_acpx) "Eiyuu x Maou", "Mahjong Eiyuu x Maou" (*.bin)
+(entis) "Tsubasa wo Kudasai", "Kura no Naka wa Kiken ga Ippai!?" (*.noa)
+(leaf_am) "Full Ani", "To Heart 2 - Another Days" (*.am)
+(ddp) "Shingakkou -Noli me tangere-", "Daylight -Asa ni Hikari no Kan wo-", "France Shoujo ~Une fille blanche~" (*.dat), "Sweet Home ~H na oneesan wa suki desu ka?~", "Sumeragi Ryouko no Bitch na 1 nichi" (*.hxp)
+(nimrod) "Seikai no Senki" (DATA\*.wac)
+(taskforce) "Musumaker" (*.dat)
+(mbac) "Melty Blood Act Cadenza" (??.p)
+(azsys) (cpb,map > tga) "Lamune" (*.arc)
+(glnk) "Choukui no Hana", "Stamp Out" (data\*.?lk)
+(cherry) (? > tga) "Angel's Lesson" (*.pak)
+(fpk0100) "Gocchiru -Lovely Lady Maker-", "Bicchincho" (*.fpk)
+(mai) (cmp,ami > tga) "Hime Musha" (*.arc)
+(k5) (k4 > tga) "Hoshi no Oujo: Hikari no Tsubasa" (*.k5)
+(rgssad) "Succubus Quest" (Game.rgssad)
+(iga0) "Cure Girl" (*.iga)
+(gxp) "Shojo to Maou to Tactics" (*.gxp)
+(overture) (mcg,acd,mca > tga) "Thirua Panic", "Pia Carrot he Youkoso!! G.P.", "Canvas 4 ~Achrome Etude~" (*.mrg)
+(agsi) "Tenkuu no Symphonia", "Tenkuu no Symphonia 2" (*.pak)
+(mrg0) "Tenkuu no Symphonia", "Tenkuu no Symphonia 2" (*.mrg)
+(vav) "Separate Blue" (*.pak)
+(wfl1) "Dungeon Crusaderz ~Tales of Demon Eater~" (*.arc)
+(hanamar) "Hanafuda Market", "Mahjong DeathRX" (*.bin)
+(bsarc) (bsg > tga) "School Heaven Love Ero Harem - Momoiro Typhoon", "Manin Densha 2", "Ura Kyoushi ~Haitoku no Inetsu Jugyou~" (*.bsa)
+(nscf) (? > tga) "XXXXX -Five X-" (CG24\*.nsc)
+(cpz5) (pb3 > tga) "Memoria", "Natsu ni Kanaderu Bokura no Uta", "Mirai Nostalgia (trial)" (data\pack\*.cpz)
+(tgp0) "Fairy Bloom Freesia" (*.tgp), "Ether Vapor" (*.pac)
+(ism) "Sisters ~Natsu no Saigo no Hi~" (*.isa)
+(mgbpack) (resource\rpack0?.dat)
+(ykc) (ykg > png) "Lover Able" (*.ykc)
+(afa) (qnt > tga; aff > swf) "Daiteikoku" (*.afa)
+(alice_red, alice_slk) "Rance Quest Test" (*.red, *.slk)
+(vc_pak) (cps > bmp,tga) "Valkyrie Complex" (Pack\*.pak)
+(asgaldh) "Asgaldh" (data\gdata.pkd)
+(nitro2) "Togainu no Chi" (*.pak)
+(nitro_pak) "Dra+Koi", "Kaigen Seito", "Gekkou no Carnevale" (*.pak)
+(leaf) (px > tga; w > wav) "Utawarerumono", "Full Ani", "To Heart 2 - Another Days" (*.a)
+(arc12) "Nessa no Rakuen", "Mimikko Yomekko", "Kanojo x Kanojo x Kanojo", "Clepsydra ~Hikari to Kage no Jujika~" (*)
+(n3pk_enc) "Kuims", "Nitro Royale" (*.pak)
+(illusion) "Sexy Beach 3", "SchoolMate", "Real Kanojo", "Sexy Beach ZERO", "Artificial Girl 3" (*.pp)
+(dx3) "Diadra Empty" (data\*.pop), "Desparaiso" (dat\mqpdat?.dat), "Yakouga 4" (*.dat), "Koumajou Densetsu 2" (data\*.dat), "Hentai Yuusha no Nakadashi Eiyuuki", "Yomesan Quest" (*.wolf)
+(qlie) "Asuseka", "Akizora Confetti", "Makai Tenshi Djibril -Episode 3-", "Hoshiuta", "Mehime no Toriko", "Natsukashi" (GameData\data?.pack)
+(ald) (vsp,pms,qnt > tga; ajp > jpg+pms) "Rance 3", "Kaeru nyo Panyon", "Kichikuou Rance", "Sengoku Rance", "Daibanchou -Big Bang Age-" (*.ald)
+(vivid) (bgd,cgd,chr,alp,cmap,texb > tga) "Silver Chaos" (pack\*.com) "Silver Chaos 2", "Silver Chaos FanBox", "Hanamachi Monogatari", "Imouto de Ikou!" (pack\*.cmp)
+
+arc_conv unsafe formats (use "fmt" switch):
+
+(fbread) "Drill Milky Punch", "Ragnarok Battle Offline" (Data\*.pac)
+(ikura) (ggd,mrs,vrs,xmg > tga) "Innai Kansen" (GGD), "Rinkan", "Paradise Heights", "Paradise Heights 2", "True Love" (MRS), "Crysweeper" (VRS), "Ringout" (XMG)
+(mbl) (prs > tga; s > txt) "Wanko to Kurasou" (*.mbl)
+(th075) "Touhou 7.5 - Immaterial and Missing Power" (th075.dat, th075bgm.dat)
+(th125) "Touhou 9.5 - Shoot the Bullet" (th095.dat), "Touhou 10 - Mountain of Faith" (th10.dat), "Touhou 11 - Subterranean Animism" (th11.dat), "Touhou 12 - Undefined Fantastic Object" (th12.dat), "Touhou 12.5 - Double Spoiler" (th125.dat), "Touhou 12.8 - Yousei Daisensou" (th128.dat)
+(tasofro) (cv2 > tga; cv3 > wav) "Touhou 10.5 - Scarlet Weather Rhapsody" (th105?.dat), "Touhou 12.3 - Hisoutensoku" (th123?.dat), "Grief Syndrome" (gs0?.dat)
+(crossnet) (? > tga) "WizAnniversary", "Hoshizora no Memoria" (*.bin)
+(minori) "Ef - A Fairy Tale of the Two", "Eden*" (*.paz), "Riddle Garden" (*.dat)
+(will) (msk,mos,wip > tga) "Sekai de Ichiban Dame na Koi", "Shirokuma Bell Stars", "Ijiwaru My Master", "I/O-revision II", "Snow Drop", "Yume Miru Kusuri", "Little My Maid", "Laughter Land" (*.arc)
+(twinkle) (hse > tga; lmf > mpg) "TropicalKiss", "D-EVE in you" (*.pak)
+(guren) (bm_ > tga) "Guren" (data\*.pkd)
+(ipf) (ipf > tga) "Castle Fantasia", "Castle Fantasia 2", "Men at Work" (game0?.dat), "Pia Carrot" (GPC\*.IPF)
+(ego) "Men at Work 2", "Men at Work 3", "Angel's Feather" (game0?.dat)
+(ciel) (bmp > tga) "Arcana", "Mitama", "After", "After SweetKiss", "Genmukan", "Soramizu", "Fault!!", "Fault!! Ace", "Famima!", "Kemonopani!", "Koisuru Otome to Shugo no Tate" (*.arc)
+(softpal_ap) (pgd > tga) "Alice Parade" (*.pac)
+(softpal_fh) (pgd > tga) "Flyable Heart" (*.pac)
+(softpal_fch) (pgd > tga) "Flyable CandyHeart" (*.pac)
+(aiw_arc) (gpx > tga) "Shusaku" (*.arc)
+(ai5) (gcc > tga) "Ai Shimai - Docchi ni Suru no!!" (*.arc)
+(ai5_kakyu2) (gcc > tga) "Kakyuusei 2" (*.arc)
+(mp_mika) (ecb,ecn > tga) "Shin Mikagura Shoujo Tanteidan" (*.dat)
+(aos) (abm > tga; scr > txt) "Dark Blue", "Wizard Girl Ambitious" (*.aos)
+(nsa) (bmp > tga) "Kimiaru", "Queen of Darkness", "Naisho no Jikan", "Monmusu Quest!" (*.nsa)
+(mink) (bmp > tga) "HEAVEN -Death Game-", "Saimin Gakkyu", "Revolving Summoner", "Swindle" (*.det), "Love Call" (pic\*.bmp)
+(mink_dat) (? > tga) "Hell Guide", "Sacrifice - Shahai no Yukue" (*.dat)
+(tink) (b0,n0,o0 > tga; u0,j0,k0 > ogg,wav) "Kowaku no Toki", "Shellsaver", "Choumajuu! ~Seieki Juuten Dungeon Kouryaku~" (Arc04.dat, Arc05.dat, Arc06.dat)
+(revive) "Revive... Sosei" (*.afs, *.prs)
+(karte) (? > tga) "Karte von Schnee" (SPDPACK.DAT)
+(mpk) (mgr > tga) "Evolimit" (*.mpk)
+(ai6) (rmt,akb > tga; vsd > mpg) "Biniku no Kaori -Netori Netorare Yari Yarare-", "Ningen Debris ~Konna Jibun ni Dare ga Shita?~" (*.arc)
+(npa_sg) "Steins;Gate" (*.npa)
+(vjed) (npi > tga) "Vampirdzhija Vjedogonia" (Data?\*.pck)
+(body) (g24 > tga) "Shitai o Arau" (*.arc)
+(vc_pac) "Valkyrie Complex" (*.pac)
+(cycsoft) "Extravaganza", "Souten no Kanata" (*.gpk, *.vpk)
+(eac) (egf,txr > tga) "Words Worth XP" (*.eac)
+(ail) "Ainsworth no Mamonotachi", "Chikan ~Shoujo wa Etsurakuiki no Densha ni Notte~" (*.dat)
+(pmref) "Princess Maker Refine", "Princess Maker 2 Refine" (*.dat)
+(pm2lbx) (pt1 > tga) "Princess Maker 2" (*.lbx)
+(route2) (iaf > bmp) "Monster Park ~Bakemono ni Miirareshi Hime~" (setup.cg, *.cgf, *.iaf, *.sud)
+(mrg) "Shirotsume Souwa ~Episode of the Clovers~ (DC)" (*.mrg)
+(leaf_setup) "To Heart 2 - Another Days", "Hoshi no Ouji-kun" (*.lac)
+(leaf_lac) "Tears to Tiara", "Hoshi no Ouji-kun" (BGM.PAK, SE.PAK, VOICE.PAK)
+(leaf_pak1) "Tears to Tiara" (*.pak)
+(leaf_pak2) "Hoshi no Ouji-kun" (*.pak)
+(lwrq_ps2) (htd > tga) "Littlewitch Romanesque (PS2)" (image.bin)
+(rk1) "Lolikko Kunoichi Boshi Soukan" (*.?dt, bgm.ovd, script.dat)
+(eagls) "Manbiki, Dame. Zettai!!", "Henshin!", "Henshin! 2", "Henshin!!! ~Pantsu ni Natte Kunkun Peropero~" (*.pak)
+(ai5_dk4) (mmo > tga) "Dragon Knight 4 - Windows Edition" (*.arc)
+(ai5_kakyu2) "Kakyuusei 2" (*.arc)
+(limejan) (rng > tga) "Lime Iro Jankitan" (*.arc)
+(avking) (hiz,hip > tga) "Adult Video King" (cg.bin, voice.bin)
+(k3) (k4 > tga) "Hoshi no Oujo" (*.k3)
+(system3) (vsp > tga) "Prostudent G", "AmbivalenZ -Niritsu Haihan-", "Ayumi-chan Monogatari" (?CG.DAT)
+(system1) (? > tga) "Crescent Moon Girl", "Dream Program System" (?CG.DAT)
+(advtry) "Tsuki to Mahou to Taiyo to", "Kindan ~Kimi wa Boku Dake no Maiden~", "Chokotto Vampire!" (*.dat)
+(kif_zt) "Grisaia no Kajitsu" (export\*.zt)
+(hdoc) (op2 > tga) "Yumemi Hakusho" (*.pak)
+(twelve) (? > tga) "12+ (Twelve Plus)" (*.pb, *.pd)
+(lcse) "Yuuhi no Mukougawa", "Shinkon-san ~Sweet Sweet Honeymoon~", "Harem Party" (lcsebody1, SoundPackSEVo)
+(bod2) "Blaze of Destiny II -The Beginning of the Fate-" (*.grp)
+(bod3) (? > tga) "Blaze of Destiny III -The Tears of the Blue Sea-" (*.dat)
+(rlseen) "Planetarian", "Kichiku Megane" (seen.txt)
+(nfs) (ngp > tga; scb > txt) "Trouble Trap Laboratory" (*.nfs)
+(hanafuda) (smg > tga) "Shinobi Hanafuda 2 Hyakka Soumei" (soumei.bin)
+(starplatinum) (? > tga) "Star Platinum" (SP.DAT)
+(libi) "Babydoll" (*.arc)
+(debonosu) "Toki o Kanaderu Waltz" (*.pak)
+(asc3) (img > tga) "American Sexy Channel 3" (data\3ch.dat)
+(grgr) (bmp > tga) "Green Green" (*.pcg, *.dat)
+(gsp) (bmz > bmp) "H-Cup Namaiki Kateikyoushi -Chichi Fetish Paizuri Hen-" (*.gsp)
+(systemc) (kg > tga) "Muriyari!? Otome DAYS" (*.fpk)
+(rpd) "Black Wolves Saga" (*.rpd)
+
+arc_conv file conversion (use "fmt" switch, and "conv" 2 or 3):
+
+(zbm) (zbm > bmp, cwl > tga, cwp > png) "Xchange", "Tokimeki Check in!" (*.zbm) "X-Change 2R", "X-Change 3" (cg\*.cwp)
+(pdt) (pdt > tga) "For Elise", "Mukuro", "Toubou", "Air", "Sayonara wo Oshiete" (PDT\*.PDT)
+(g00) (g00 > tga) "Neko Kawaigari", "Tomoyo After", "Planetarian", "Kud Wafter", "Maou to Odore! 2" (G00\*.g00)
+(eenc) "Seirei no Kuni" (image\*.png, music\*.um3)
+(lim) (lim > tga) "Kusarihime - Euthanasia", "Pink Panzer" (grp?\*.lim)
+(crx) (crx > tga) "Princess Party", "Renge", "Yaminabe Aries", "Mai-HiME - Unmei no Keitouju" (*.crx)
+(gbix) (pvr > tga) "Revive... Sosei"
+(isf) "Hitomi -My Stepsister-", "Private Nurse", "Come See Me Tonight 2", "Kango Shicyauzo 2" (*.isf)
+(gyu) (gyu > tga) "Princess Evangile", "Sora wo Tobu, 7tsu Me no Mahou", "Fuyu no Rondo", "Angel Ring", "Harukaze dori ni, Tomarigi wo. 2nd Story" (*.gyu)
+(pmp) (pmp > bmp) "Shitsu Raku No Kami Onna" (*.pmp)
+(pm2win) (dat > bmp) "Princess Maker 2 for Windows 3.1 & 95" (*.dat)
+(syg) (syg > tga) "Taiiku Souko ~Shoujotachi no Sange~" (*.syg)
+(c4) (gd > tga) "Yarasete! Teacher", "Boku No Natsuyasumi Himitsu Taiken" (GDS\*.GD)
+
+arc_conv switches:
+
+{-f|--fmt} {format}
+  force specific archive format
+{-o|--out} {tar|utar|rar|dir} (def=dir)
+  output format: tar-"ansi TAR", utar-"utf8 TAR", rar-"RAR", dir-"Directory"
+--progress {0|1} (def=1)
+  disable/enable progress bar
+{-c|--conv} {0|1|2|3} (def=auto)
+  file conversion: 0-off, 1-normal(default for files), 2-dir, 3-dir recursive(default for folders)
+--debug {0|1} (def=0)
+  disable/enable debug data
+--dest {filename|dirname}
+  destination override
+--alpha {0|1|2|3} (def=2)
+  tga alpha channel mode: 0-keep alpha, 1-remove alpha with full opacity, 2-remove alpha with full and null opacity, 3-remove alpha
+
+--pbgz {0|1|2} (def=1)
+  pbgz file decrypt: 0-off, 1-th08, 2-th09
+--th125 {1|2} (def=2)
+  th125 file decrypt: 1-th095, th10, th11, 2-th12, th125, th128
+--list {file} (def="repipack.txt")
+  repipack filename list
+--xp3 {crypt_name}
+  xp3 file decrypt: fate-"Fate/stay night", swan-"Swan Song", "Re: (Re Colon)", "Kaiware!", seiten-"Seirei Tenshou", okiba-"Okiba ga Nai!", shiden-"Shiden - Enkan no Kizuna", links-"Links! ~Kimi to Seirei to Tsukaima to~", xor-"Heliotrope -Sore wa Shi ni Itaru Kami no Ai-", avatar-"Gensou no Avatar", konkon-"Kon Kon", sd_hime-"Tsubasa no Oka no Hime: A red and blue moon -finite loop-", seiyuu-"Serifu de Kanjite! Seiyuu Doushi", cafesourire-"Cafe Sourire", himesyo-"Himesho!", location-"Lovely x Cation", ataraxia-"Fate/hollow ataraxia", smile-"Smile", "Smile Cubic!", tenshin-"Tenshin Ranman - Lucky or Unlucky!?", futur-"Ushinawareta Mirai o Motomete", kickinghorse-"Kicking Horse Rhapsody", aqua-"AQUA", relations-"Relations Sister x Sister", akazukin-"Akazukin to Mayoi no Mori", shisukoi-"Sis Koi ~Shisukoi~", zchospiral-"Zecchou Spiral!!", imostyle-"Imouto Style", mahoyo_trial-"Mahoutsukai no Yoru Trial", osana-"Osananajimi wa Daitouryou ~My girlfriend is the President~", mahoyo-"Mahoutsukai no Yoru"
+--npa1 {crypt_name}
+  npa1 file decrypt: chaos-"Chaos;Head", nekoda-"Nekoda -Nyanda-", lamento-"Lamento -Beyond the Void-", django-"Lamento Treasure", "Zoku Satsuriku no Django", muramasa-"Soukou Akki Muramasa: Janen Hen", sweetpool-"Sweet Pool", demonbane-"Demonbane", kikokugai-"Kikokugai 2011", sonicomi-"Sonicomi", gclx-"Guilty Crown Lost Xmas", dmmd-"DRAMAtical Murder", phenomeno-"Phenomeno"
+--tink {1|2|3|4}
+  tinkerbell image decrypt: 1-"Kowaku no Toki", 2-"Shellsaver", 3-"Choumajuu! ~Seieki Juuten Dungeon Kouryaku~", 4-"Hime Kami 1/2
+"
+--minori {riddle|eden|eden_pm}
+  minori file decrypt: riddle-"Riddle Garden", eden-"Eden*", eden_pm-"Eden* PLUS+MOSAIC"
+--pp {sb3|sm|rk|sbz|js3}
+  illusion archive type: sb3-"Sexy Beach 3", sm-"SchoolMate", rk-"Real Kanojo", sbz-"Sexy Beach ZERO", js3-"Artificial Girl 3"
+--will {8|12} (def=8)
+  will filename len: 12-"Shirokuma Bell Stars"
+--tcd3 {0|1|2} (def=auto)
+  tcd3 image decrypt: 0-"Hateshinaku Aoi, Kono Sora no Shita de...", "Sabae no Ou Scenario II", 1-"Nanapuri", "Temaribana", 2-"Atori no Sora to Shinchuu no Tsuki"
+--kif_key {int32} (def=auto)
+  kif filename pass hash: 0x4260E643-"Shukufuku no Campanella", 0xA5A166AA-"Makai Tenshi Djibril -Episode 4-", 0x1DAD9120-"Grisaia no Kajitsu"
+--kif_str {password}
+  kif filename password: "CAMPANELLA"-"Shukufuku no Campanella", "FW_MAKAI-TENSHI_DJIBRIL4"-"Makai Tenshi Djibril -Episode 4-", "FW-6JD55162"-"Grisaia no Kajitsu", "FW-8O9B6WDS"-"Sengoku Tenshi Djibril (trial)"
+--entis {0|1} (def=0)
+  entis file decrypt: 0-off, 1-"Tsubasa wo Kudasai" (graphics02.noa)
+--leaf_am {0|1|2} (def=1)
+  leaf_am file decrypt: 0-off, 1-"Full Ani", 2-"To Heart 2 - Another Days"
+--gyu_key {int32}
+  gyu image key
+--gyu {file} (def="def.rld", "rld\def.rld")
+  gyu image key table or "def.rld"
+--pmref {0|1} (def=1)
+  png filename: 0-archive index, 1-search name in png
+--majiro_key {int32} (def=arcscan)
+  majiro image pass crc32: 0x59E75DD4-"Akatsuki no Goei ~Principal-tachi no Kyuujitsu~", 0x72E7C3D5-"NekoNeko Fan Disk 3", 0x8753B589-"Vanitas no Hitsuji", 0x078D5CC3-"Primary Step"
+--majiro_str {password}
+  majiro image password
+--route2 {0|1|2} (def=0)
+  route2 archive type: 0-cgf, 1-cgf_mask, 2-sud
+--mrg {0|1|2} (def=0)
+  mrg options: 0-none, 1-"Shirotsume Souwa (DC)" script decrypt (scr.mrg), 2-"Shirotsume Souwa (DC)" image convert (gcg.mrg, pcg.mrg)
+--avking_map {file}
+  avking map file location ("avking.map")
+--avking_path {str}
+  avking path: cg.bin-"data/cg/", voice.bin-"data/sound/voice/"
+--fpk0100 {int32} (def=crack)
+  fpk0100 archive key: 0-"Gocchiru -Lovely Lady Maker-", 0xC34A7BB7-"Bicchincho"
+--warc {key} (def=exescan)
+  RioShiina key/version
+--overture {int8} (def=brute)
+  overture image key
+
+--mod {name} {options ...}
+  various modules, this switch must be first
+
+--mod light {dies_irae|donchan|grimmdc} {src_file} [dest_file]
+  malie archive decrypt: dies_irae-"Dies irae Also sprach Zarathustra", donchan-"Donchan ga Kyu", grimmdc-"Zettai Meikyuu Grimm Director's Cut"
+--mod kimiaru {src_file} [dest_file]
+  archive xor: "Kimiaru" (arc.nsa)
+--mod ain {src_file} [dest_file]
+  script xor: "Sengoku Rance", "Daibanchou -Big Bang Age-" (*.ain)
+--mod ai2 {src_file} [dest_file]
+  script unpack/pack: "Alice 2010" (*.ain)
+--mod tga [8|gs|32|mask|mskn] {src_tga|src_bmp} {dest_tga}
+  creates rle tga
+--mod mask {src_tga24} {mask_tga8} [dest_tga32]
+  tga (RGB + alpha) combine
+--mod mskn {src_tga24} {mask_tga8} [dest_tga32]
+  tga (RGB + ~alpha) combine
+--mod wip {24|8} {dest_wip} {src_tga ...}
+--mod wip 24+8 {dest_wip24} {dest_wip8} {src_tga32 ...}
+  wip file creation
+--mod dx3dec {src_file} [dest_file]
+  dx3 archive decrypt
+--mod filecat {dest_file} [dest_pos] {src_file} [src_pos] [size]
+  append src_file to dest_file
+--mod textenc {auto|src_enc} {xutf*|dest_enc} {src_file} {dest_file}
+  text encoding conversion, src_enc/dest_enc is {utf8|utf16|utf16be|windows_codepage}
+--mod texteol {1|2} {src_file} [dest_file]
+  newline conversion (1 - "\n", 2 - "\r\n")
+--mod xor {key} {src_file} [dest_file]
+  perform xor operation on file
+--mod ssdc43 {src_tga} {ext43_tga} {dest_tga}
+  "Shirotsume Souwa (DC)" image colorspace extend
+--mod is256 {src_tga}
+  test number of unique colors, returns: 0-less or equal to 256, 1-above 256, 2-error
+--mod lim {1|2|3} {src_tga} {dest_file}
+--mod wcg {src_tga} {dest_file}
+  tga to wcg/lim image conversion
+--mod lwg {src_lwg} {src_wcg} [dest_lwg]
+  lwg container image replace
+--mod fontdesc {out_file} {height} {width} {escapement} {orientation} {weight} {italic} {underline} {strikeout} {charset} {outprecision} {clipprecision} {quality} {pitchandfamily} {facename}
+  creates font description file
+--mod fontdlg {fontdesc}
+  opens choose font dialog
+--mod ffd_rsf {old_rsf} {fontdesc} {chartab} {new_rsf}
+  creates Littlewitch FFD font
+--mod baldr_fnt {fontdesc} {chartab} {dest_fnt}
+  creates BaldrSky font file
+--mod ai6_rmt {src_tga} {dest_rmt}
+  tga to rmt image conversion
+--mod azsys {dec|enc} {key} {src_file} [dest_file]
+  decrypt/encrypt asb script
+--mod azsys key {src_asb} {dest_txt}
+  find key for asb script
+--mod exhibit crypt {key} {src_file} [dest_file]
+  decrypt/encrypt rld script
+--mod exhibit key {src_rld} {dest_txt}
+  find key for rld script
+--mod exhibit gyutab {src_rld} {dest_file}
+  extract gyu key table from "def.rld"
+--mod warcscan {dest_txt}
+  RioShiina process scan
+--mod mjoscan {src_mjo|src_arc} {dest_txt}
+  Majiro script scan ("start.mjo", "scenario.arc")
+--mod rctfix {src_tga} {color} [dest_tga]
+  Majiro rct compose
+--mod nsa_alpha {src_tga} [dest_tga]
+  nsa alpha compose
+--mod compose {bottom_tga} {top_tga} {dest_tga}
+  image alpha compose
+--mod xp3list [dest_txt] {src_xp3}
+  extract filenames from xp3 archive
+--mod cv2 {src_tga} {dest_cv2}
+  tga to tasofro cv2 image conversion
+--mod agf {src_tga} {dest_agf}
+  tga to vfs200 agf image conversion
+--mod g00 [old_g00] {src_tga} {dest_g00}
+  tga to RealLive g00 type 2 image conversion
+--mod ikura {mrs|xmg} {header} {src_tga} {dest_file}
+  tga to ikura image conversion
+
+--pack {format} {input_folder} {output_file} {options ...}
+  file archiver, this switch must be first
+
+arc_pack formats:
+
+(repipack) [1|2a|2|3|4|5] {key|key_index}
+(dx3) [password]
+(xfl)
+(hypack) [0|1]
+(adpack32)
+(ikura)
+(sgs1)
+(xp3) [crypt_name]
+(tasofro) [key]
+(warc) [238|239|240]
+(ypf) {247|290|300|406} [xor] [rec_size]
+(sm2mpx10)
+(pac4) [0|1|2|3|4]
+(arcx)
+(aoimy)
+(vfs101)
+(vfs200)
+(majiro) {1|2|3}
+(minori) [riddle|eden|eden_pm]
+(illusion) {sb3|sm|rk|sbz|js3}
+(escude) {acpx|arc1|arc2}
+(eac)
+(ai6)
+(ai5_dk4)
+(npa1) {0|1|2|3} [time1 time2]
+(ald)
+(afa)
+(will) [name_length]
+(ciel) {type} {password}
+(arc12) {1|2}
+(vivid) [header_file]
+(glnk)
+(ego)
+(ddp) [header] {0|hash_size}
+(lcse) [xor]
+(rlseen)
+(mbl)
+(nitro_pak) {3|4} {label}
+(nsa) 
+(gamedat) {1|2}
+(sysadv) {0|1} 
+(gsp) 
+(ism)
+ 
+hints:
+  (find_common, find_anime)
+  Uses self path as destination folder. 
+  To process many files, pack them without compression.
+  (find_common, find_anime, arc_conv)
+  Press Ctrl-C or Alt-F4 in progress window to stop processing.
+ 

@@ -1,0 +1,47 @@
+﻿
+(EN)
+
+  LICENSE AGREEMENT
+
+  THIS PROGRAM IS DISTRIBUTED "AS IS". NO WARRANTY OF ANY
+  KIND IS EXPRESSED OR IMPLIED. YOU USE AT YOUR OWN RISK.
+  NEITHER THE AUTHOR NOR THE AGENTS OF THE AUTHOR WILL BE LIABLE 
+  FOR DATA LOSS, DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS
+  WHILE USING OR MISUSING THIS SOFTWARE.
+
+  If you accept the terms of the agreement,
+  use password "I Agree" to extract files from archive.
+
+(RU)
+
+  ЛИЦЕНЗИОННОЕ СОГЛАШЕНИЕ
+
+  ЭТА ПРОГРАММА РАСПРОСТРАНЯЕТСЯ ПО ПРИНЦИПУ "КАК ЕСТЬ". ПРИ ЭТОМ
+  НЕ ПРЕДУСМАТРИВАЕТСЯ НИКАКИХ ГАРАНТИЙ, ЯВНЫХ ИЛИ ПОДРАЗУМЕВАЕМЫХ.
+  ВЫ ИСПОЛЬЗУЕТЕ ЕГО НА СВОЙ СОБСТВЕННЫЙ РИСК. НИ АВТОР, НИ ЕГО
+  УПОЛНОМОЧЕННЫЕ АГЕНТЫ НЕ НЕСУТ ОТВЕТСТВЕННОСТИ ЗА ПОТЕРИ ДАННЫХ,
+  ПОВРЕЖДЕНИЯ, ПОТЕРИ ПРИБЫЛИ ИЛИ ЛЮБЫЕ ДРУГИЕ ВИДЫ ПОТЕРЬ, СВЯЗАННЫЕ
+  С ИСПОЛЬЗОВАНИЕМ (ПРАВИЛЬНЫМ ИЛИ НЕПРАВИЛЬНЫМ) ЭТОЙ ПРОГРАММЫ.
+
+  Если вы принимаете условия соглашения,
+  используйте пароль "I Agree" чтобы извлечь файлы из архива.
+
+ 
+ 
+
+ 
+
+  
+   
+
+  
+
+ 
+
+
+ 
+
+ 
+
+
+ 

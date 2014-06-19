@@ -11,5 +11,15 @@ cd ..\arc_pack
 cd ..\arc_conv
 call compile.bat
 
+rem Added by dsp2003
+
 copy arc_conv.exe ..\arc_conv.exe
 copy arc_conv.dat ..\arc_conv.dat
+
+cd ..\text_conv
+call compile.bat
+
+copy text_conv.exe ..\text_conv.exe
+
+cd ..
+call clean.bat
