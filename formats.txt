@@ -444,6 +444,7 @@ arc_pack formats:
 (sysadv) {0|1} 
 (gsp) 
 (ism)
+(qlie)
  
 hints:
   (find_common, find_anime)
